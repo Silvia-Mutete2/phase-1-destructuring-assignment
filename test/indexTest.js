@@ -76,7 +76,7 @@ describe("index.js", () => {
     expect(job).to.exist
     expect(job).to.equal("Cast member of The Muppet Show")
     expect(partner).to.exist
-    expect(partner).to.equal("Kermit")
+    expect(partner).to.equal('Kermit')
   })
   
   it("Object: uses destructuring to assign songs 2 and 4, and Kermit's job and partner", () => {
